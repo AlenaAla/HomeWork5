@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sinus Calc Test" verbose="1">
+    <test name = "Sin Calc Test">
+        <groups>
+            <run>
+                <include name="b"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.epam.atm.calc.tests.SinCalcTest"/>
+        </classes>
+    </test>
+</suite>

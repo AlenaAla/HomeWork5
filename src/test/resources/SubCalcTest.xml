@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Long Subtraction Suite">
+    <test name="Long Subtraction Test 1">
+        <parameter name="arg1" value="5"/>
+        <parameter name="arg2" value="-6"/>
+        <parameter name="expected" value="11"/>
+        <classes>
+            <class name="com.epam.atm.calc.tests.SubCalcTest"></class>
+        </classes>
+    </test>
+
+    <test name="Long Subtraction Test 2">
+        <parameter name="arg1" value="1"/>
+        <parameter name="arg2" value="2"/>
+        <parameter name="expected" value="-1"/>
+        <classes>
+            <class name="com.epam.atm.calc.tests.SubCalcTest"></class>
+        </classes>
+    </test>
+    <test name="Long Subtraction Test 3">
+<!--Test without specified parameters in xml to verify Optional annotation  -->
+        <classes>
+            <class name="com.epam.atm.calc.tests.SubCalcTest"></class>
+        </classes>
+    </test>
+</suite>

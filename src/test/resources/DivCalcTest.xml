@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Long Multiplicaton Suite">
+    <test name="ong Multiplicaton Test">
+        <classes>
+            <!-- using Factory for parametrization-->
+            <class name="com.epam.atm.calc.tests.DivTestFactory"></class>
+        </classes>
+    </test>
+</suite>
